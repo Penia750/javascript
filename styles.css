@@ -1,0 +1,35 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: chartreuse;
+    align-items: center;
+}
+
+#input_pokemon {
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: x-large;
+    padding-left: 15px;
+    font-family: times new 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+#search_button {
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+#pokemon_information {
+    width: 80%;
+    height: 500px;
+    background-color: cyan;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
